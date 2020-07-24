@@ -14,12 +14,12 @@ def read_file(filename):
 
 setup(
     name="py_draw",
-    version="0.0.4",
+    version="0.0.6",
     description="This program is drawing tool written using pygame",
     long_description=read_file("sample.rst"),
     author="suzuki taisei",
     author_email="taiseiyo11@gmail.com",
-    url="https://github.com/taiseiyo/Self-made-python-script/blob/master/command/py_draw/",
+    url="https://github.com/taiseiyo/py-draw",
     packages=find_packages(),
     include_package_data=False,
     install_requires=[
